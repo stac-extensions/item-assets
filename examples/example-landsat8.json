@@ -11,7 +11,7 @@
   "stac_version": "1.0.0-rc.1",
   "stac_extensions": [
     "item-assets",
-    "https://stac-extensions.github.io/item-assets/v1.0.0-rc.1/schema.json"
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
   ],
   "extent": {
     "spatial": {
