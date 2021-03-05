@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://schemas.stacspec.org/v1.0.0/extensions/item-assets/json-schema/schema.json#",
-  "title": "Asset Definition Extension Specification",
-  "description": "STAC Asset Definition Extension to a STAC Collection",
+  "title": "Item Asset Extension",
+  "description": "STAC Item Asset Extension for STAC Collections",
   "allOf": [
     {
-      "$ref": "../../../collection-spec/json-schema/collection.json"
+      "$ref": "https://schemas.stacspec.org/v1.0.0-rc.1/collection-spec/json-schema/collection.json"
     },
     {
       "$ref": "#/definitions/item_assets"
