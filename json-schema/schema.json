@@ -23,10 +23,7 @@
         "stac_extensions": {
           "type": "array",
           "contains": {
-            "enum": [
-              "item-assets",
-              "https://schemas.stacspec.org/v1.0.0/extensions/item-assets/json-schema/schema.json"
-            ]
+            "const": "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
           }
         },
         "item_assets": {
