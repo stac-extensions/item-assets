@@ -1,13 +1,14 @@
-# Item Assets Extension Specification
+# Item Assets Definition Extension Specification
 
-- **Title:** Item Assets
+- **Title:** Item Assets Definition
 - **Identifier:** <https://stac-extensions.github.io/item-assets/v1.0.0/schema.json>
-- **Field Name Prefix:** n/a
+- **Field Name Prefix:** -
 - **Scope:** Collection
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
 - **Owner**: @matthewhanson
+- **History**: [Prior to March 2, 2021](https://github.com/radiantearth/stac-spec/commits/v1.0.0-rc.1/extensions/item-assets)
 
-This document explains the Item Assets Extension to the 
+This document explains the Item Assets Definition Extension to the 
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
 
 This extension serves two purposes:
@@ -60,8 +61,3 @@ serving time from the Collection-level.
 
 At least two fields (e.g. `title` and `type`) are required to be provided, in order for it to adequately describe Item assets.
 The two fields must not necessarily be taken from the list above and may include any custom field.
-
-## Implementations
-
-- AWS Public Dataset catalogs, [landsat-8](http://landsat-stac.s3.amazonaws.com/landsat-8-l1/catalog.json) 
-- and [sentinel-2](http://sentinel-stac.s3.amazonaws.com/sentinel-2-l1c/catalog.json) define an Asset definition at the Collection level.

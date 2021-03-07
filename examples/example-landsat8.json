@@ -1,16 +1,17 @@
 {
-  "id": "landsat-8-l1",
+  "stac_version": "1.0.0-rc.1",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+    "eo"
+  ],
   "type": "Collection",
+  "id": "landsat-8-l1",
   "title": "Landsat 8 L1",
   "description": "Landsat 8 imagery radiometrically calibrated and orthorectified using ground points and Digital Elevation Model (DEM) data to correct relief displacement.",
   "keywords": [
     "landsat",
     "earth observation",
     "usgs"
-  ],
-  "stac_version": "1.0.0-rc.1",
-  "stac_extensions": [
-    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
   ],
   "extent": {
     "spatial": {
