@@ -4,7 +4,7 @@
 - **Identifier:** <https://stac-extensions.github.io/item-assets/v1.0.0/schema.json>
 - **Field Name Prefix:** -
 - **Scope:** Collection
-- **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
+- **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Stable
 - **Owner**: @matthewhanson
 
 This document explains the Item Assets Definition Extension to the 
