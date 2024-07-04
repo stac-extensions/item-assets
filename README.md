@@ -12,11 +12,11 @@ This document explains the Item Assets Definition Extension to the
 
 This extension serves two purposes:
 
-1. Provide a human-readable definition of assets available in any Items 
+1. Provide a human-readable definition of assets available in **any** Items 
    belonging to this Collection so that the user can determine the key(s) 
    of assets they are interested in.
 2. Provide a way to programmatically determine what assets are available 
-   in any member Item. Otherwise a random Item needs to be examined to 
+   in **any** member Item. Otherwise a random Item needs to be examined to 
    determine assets available, but a random Item may not be representative of the set.
 
 - Examples:
@@ -39,7 +39,8 @@ The `href` field is not required, because Collections don't point to any data by
 
 An asset is an object that contains details about the datafiles that will be included in member Items.
 Assets included at the Collection level do not imply that all assets are available from all Items.
-However, it is recommended that the Asset Definition is a complete set of all assets that may be available from any member Items.
+However, it is recommended that the Asset Definition is a complete set of all assets that may be available from **any** member Items.
+So this should be the union of the available assets, not the intersection of the available assets.
 
 | Field Name  | Type      | Description |
 | ----------- | --------- | ----------- |
