@@ -4,8 +4,13 @@
 - **Identifier:** <https://stac-extensions.github.io/item-assets/v1.0.0/schema.json>
 - **Field Name Prefix:** -
 - **Scope:** Collection
-- **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Stable
+- **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Deprecated
 - **Owner**: @matthewhanson
+
+> \[!NOTE]
+> **This extension is deprecated in favor of STAC 1.1.**  
+> This functionality of this extension is included directly in STAC 1.1. and later without a functional change.  
+> You only need this extension when you are implementing STAC 1.0 or any version before.
 
 This document explains the Item Assets Definition Extension to the 
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
